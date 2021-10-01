@@ -1,13 +1,6 @@
-interface User {
-    id: number;
-    name: string;
-    email: string;
-    password: string;
-    avatar: string;
-}
+## Discord Playlist Maker
 
-interface Playlist {
-    id: number;
-    name: string;
-    created_by: User.id;
-}
+[ERD](https://whimsical.com/backend-discord-music-app-4ZFhKx4qaFNuPTR12gpcjR)
+![ERD](/assets/erd.png)
+
+https://www.postgresqltutorial.com/postgresql-create-table/
