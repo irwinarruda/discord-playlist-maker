@@ -1,6 +1,6 @@
 import { Router } from 'express';
 
-import { createUserController } from '../services/createUser';
+import { createUserController } from '../useCases/createUser';
 
 const usersRouter = Router();
 
