@@ -10,7 +10,7 @@ interface TokenPayload {
     sub: string;
 }
 
-export default function ensureAuthenticated(
+function ensureAuthenticated(
     req: Request,
     res: Response,
     next: NextFunction,
@@ -34,3 +34,5 @@ export default function ensureAuthenticated(
         );
     }
 }
+
+export { ensureAuthenticated };
